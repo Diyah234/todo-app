@@ -13,23 +13,12 @@ body {
     flex-direction: row;
 }
 
-.bg {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.bg img{
-    width: 100%;
-}
 
-.black {
-    background-color: hsl(235, 21%, 11%);
+/* .bg img{
     width: 100%;
-    padding: 3rem;
-    height: 15rem;
-    margin-top: 16rem;
-    margin-left: -1rem;
-}
+} */
+
+
 
 .box {
     position: absolute;
@@ -116,14 +105,18 @@ body {
 .last .flex2 p{
     margin-left: 10px;
 }
-.flex p:hover{
+.hovers:hover{
     cursor: pointer;
+    color: white;
 }
-
+.no-hover:hover{
+    cursor: pointer;
+    color: hsl(235, 19%, 35%);
+}
 .selected{
     /* background: linear-gradient ( hsl(192, 100%, 67%) to hsl(280, 87%, 65%))
     ; */
-    background: url("../images/icon-check.svg") no-repeat  ,linear-gradient(
+    background: url("./images/icon-check.svg") no-repeat  ,linear-gradient(
         hsl(192, 100%, 67%) ,
         hsl(280, 87%, 65%)
     );
@@ -141,3 +134,30 @@ body {
     align-items: center;
     padding-bottom: 5px;
 } */
+.bg{
+    background-size: 'cover';
+}
+
+@media screen and (max-width:768px) {
+    .bg{
+        background-position-x: 30%;
+    }
+  .box{
+    left: 1rem;
+    width: 90%;
+  }   
+  .todo img{
+    width: 10%;
+    margin-top: 40px;
+  }
+  .inp{
+    padding: 6px 20px;
+  }
+  .inp input{
+    width: 12.5rem;
+    margin-right: 2rem;
+  }
+  .dark{
+    margin-top: -20rem;
+  }
+}
