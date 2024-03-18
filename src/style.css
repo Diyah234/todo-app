@@ -35,7 +35,7 @@ body {
 .todo img {
     width: 5%;
     height: 5%;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .todo h1 {
@@ -159,5 +159,6 @@ body {
   }
   .dark{
     margin-top: -20rem;
+
   }
 }

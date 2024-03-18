@@ -116,8 +116,9 @@ function App() {
       ></div>
       <div
         style={{
-          backgroundColor: lightMode ? '#f0f4f6' : '#25273c',
+          backgroundColor: lightMode ? 'hsl(236, 33%, 92%)' : 'hsl(235, 21%, 11%)',
           flex: 1,
+          padding: '40px'
         }} className='dark'
       ></div>{' '}
       <div className="box">
