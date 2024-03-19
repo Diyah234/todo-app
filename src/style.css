@@ -134,9 +134,6 @@ body {
     align-items: center;
     padding-bottom: 5px;
 } */
-.bg{
-    background-size: 'cover';
-}
 
 @media screen and (max-width:768px) {
     .bg{
