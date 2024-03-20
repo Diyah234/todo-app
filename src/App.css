@@ -146,7 +146,7 @@ body {
 
   .box {
     left: 1rem;
-    width: 90%;
+    width: 92%;
   }
 
   .todo img {
@@ -155,16 +155,20 @@ body {
   }
 
   .inp {
-    padding: 6px 20px;
+    padding: 10px 20px;
   }
 
   .inp input {
     width: 12.5rem;
     margin-right: 2rem;
     font-size: 18px;
+    padding: 2px;
   }
   .inp input::placeholder{
     font-size: 17px;
+  }
+  .last{
+    padding: 10px 15px;
   }
   .dark {
     margin-top: -20rem;
